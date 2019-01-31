@@ -1,5 +1,5 @@
 import { RowNode } from "./rowNode";
-import { ICellEditorComp } from "../rendering/cellEditors/iCellEditor";
+import { ICellEditorComp } from "../interfaces/iCellEditor";
 import { ICellRendererComp, ICellRendererFunc } from "../rendering/cellRenderers/iCellRenderer";
 import { Column } from "./column";
 import { IFilterComp } from "../interfaces/iFilter";

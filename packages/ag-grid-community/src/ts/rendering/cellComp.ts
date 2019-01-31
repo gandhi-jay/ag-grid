@@ -15,8 +15,8 @@ import {
     FlashCellsEvent
 } from "../events";
 import { GridCell, GridCellDef } from "../entities/gridCell";
-import { ICellEditorComp, ICellEditorParams } from "./cellEditors/iCellEditor";
 import { Component } from "../widgets/component";
+import { ICellEditorComp, ICellEditorParams } from "../interfaces/iCellEditor";
 import { ICellRendererComp, ICellRendererParams } from "./cellRenderers/iCellRenderer";
 import { CheckboxSelectionComponent } from "./checkboxSelectionComponent";
 import { NewValueParams, SuppressKeyboardEventParams } from "../entities/colDef";
